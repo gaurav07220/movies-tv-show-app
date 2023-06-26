@@ -56,7 +56,7 @@ function App() {
     };
 
     return (
-        <BrowserRouter  >
+        <BrowserRouter basename="/movies-tv-show-app/"  >
             <Header />
             <Routes >
                 <Route path="/" element={<Home />} />
